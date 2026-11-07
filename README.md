@@ -117,36 +117,8 @@ The analysis provides insights that can support:
 - Identifying important booking distribution channels.
 - Improving data quality and reporting processes.
 
-## 7. Project Structure
 
-```text
-valentius-kryptix-internship/
-│
-├── dataset/
-│   └── hotel_bookings.csv
-│
-├── notebooks/
-│   └── Hotel_Booking_Demand_EDA.ipynb
-│
-├── src/
-│   └── hotel_booking_eda.py
-│
-├── visualizations/
-│   ├── 01_lead_time_distribution.png
-│   ├── 02_cancellation_distribution.png
-│   ├── 03_monthly_booking_trends.png
-│   ├── 04_market_segment_analysis.png
-│   ├── 05_adr_distribution.png
-│   ├── 06_cancellation_by_hotel.png
-│   ├── 07_correlation_heatmap.png
-│   └── 08_top_customer_countries.png
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-## 8. How to Run the Project
+## 7. How to Run the Project
 
 Clone the repository:
 
@@ -161,11 +133,7 @@ cd valentius-kryptix-internship
 git checkout week_1
 ```
 
-Install the required dependencies:
 
-```bash
-pip install -r requirements.txt
-```
 
 Run the Jupyter Notebook:
 
@@ -181,7 +149,7 @@ Alternatively, run the Python script:
 python src/hotel_booking_eda.py
 ```
 
-## 9. Conclusion
+## 8. Conclusion
 
 This project demonstrates a complete exploratory data analysis workflow, beginning with dataset inspection and data quality assessment and progressing through statistical analysis and visualization.
 
